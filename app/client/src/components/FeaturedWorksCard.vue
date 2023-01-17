@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col max-w-md md:max-w-none items-center md:items-start md:flex-row max-w-lg md:max-w-none border-b-2 relative pb-4 w-full"
+    class="flex flex-col max-w-md md:max-w-none items-center md:items-start md:flex-row max-w-lg md:max-w-none border-b-2 relative pb-10 w-full"
   >
     <img
       class="w-full md:mr-4 rounded-md md:w-80 float-right"
@@ -17,10 +17,6 @@
       <p class="mt-4 font-medium color-textcolor leading-6">
         ÇOK FAZLA YAZI OLUNCA SARMALASIN Amet Lorem ipsum dolor sit amet,
         consectetur adipisicing elit. Ea et eveniet fugit id laboriosam
-        molestias neque nostrum quaerat quidem sint. Amet Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Ea et eveniet fugit id laboriosam
-        molestias neque nostrum quaerat quidem sint. Amet Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Ea et eveniet fugit id laboriosam
         molestias neque nostrum quaerat quidem sint. Amet Lorem ipsum dolor sit
         amet, consectetur adipisicing elit. Ea et eveniet fugit id laboriosam
         molestias neque nostrum quaerat quidem sint. Amet Lorem ipsum dolor sit

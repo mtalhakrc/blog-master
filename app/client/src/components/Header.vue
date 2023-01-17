@@ -3,22 +3,28 @@
   <!--    > mesela burada header biraz daha aşağıda olsun diye mt verdim, bu doğru-->
   <!--    mu?</span-->
   <!--  >-->
-  <header class="h-12">
+  <header class="">
     <div class="container h-full flex justify-end items-center">
       <button class="block md:hidden" @click="isMenushow = !isMenushow">
         <menuSVG />
       </button>
 
       <div
-        class="flex flex-col bg-white border text-lg font-semibold tracking-tight z-10 absolute left-0 top-full w-full p-4 opacity-0 transition pointer-events-none group md:flex-row md:static md:opacity-100 md:pointer-events-auto md:justify-end md:border-0 md:p-0 md:top-0 md:mt-10"
+        class="flex flex-col bg-white border text-lg font-semibold tracking-tight z-10 absolute left-0 top-full w-full p-4 opacity-0 transition pointer-events-none group md:flex-row md:static md:opacity-100 md:pointer-events-auto md:justify-end md:border-0 md:p-0 md:top-0 md:mt-5"
         :class="{
           'opacity-100': isMenushow,
           'pointer-events-auto': isMenushow,
         }"
       >
-        <RouterLink to="/works" class="menu-item">Works</RouterLink>
-        <RouterLink to="/menu" class="menu-item">Menu</RouterLink>
-        <RouterLink to="/contact" class="menu-item">Contact</RouterLink>
+        <RouterLink active-class="text-lightred" to="/works" class="menu-item"
+          >Works</RouterLink
+        >
+        <RouterLink active-class="text-lightred" to="/menu" class="menu-item"
+          >Menu</RouterLink
+        >
+        <RouterLink active-class="text-lightred" to="/contact" class="menu-item"
+          >Contact</RouterLink
+        >
       </div>
     </div>
   </header>
