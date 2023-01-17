@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/blog-master/app/handlers"
-	"github.com/blog-master/common/appctx"
+	"github.com/blog-master/pkg/appctx"
 	"github.com/gofiber/fiber/v2"
 )
 

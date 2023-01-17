@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/blog-master/common/appctx"
+	"github.com/blog-master/pkg/appctx"
 )
 
 func Login(ctx *appctx.Context) appctx.ApiError {

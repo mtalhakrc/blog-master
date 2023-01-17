@@ -5,6 +5,7 @@ go 1.19
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/gofiber/fiber/v2 v2.41.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.4.3 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
