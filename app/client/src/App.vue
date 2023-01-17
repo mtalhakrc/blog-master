@@ -2,16 +2,22 @@
   <div>
     <TheHeader />
   </div>
-  <!--  <div class="container">-->
   <RouterView />
+  <div>
+    <TheFooter/>
+  </div>
+
+
+  <!--  <div class="container">-->
   <!--  </div>-->
 </template>
 <script>
 import { defineComponent } from "vue";
 import TheHeader from "@/components/Header.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
 export default defineComponent({
-  components: { TheHeader },
+  components: { TheFooter, TheHeader },
 });
 </script>
 

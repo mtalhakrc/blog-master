@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col max-w-md md:max-w-none items-center md:items-start md:flex-row max-w-lg md:max-w-none border-b-2 relative pb-4 mb-40 w-full"
+    class="flex flex-col max-w-md md:max-w-none items-center md:items-start md:flex-row max-w-lg md:max-w-none border-b-2 relative pb-4 w-full"
   >
     <img
       class="w-full md:mr-4 rounded-md md:w-80 float-right"
