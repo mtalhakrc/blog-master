@@ -5,9 +5,10 @@ import (
 )
 
 func Login(ctx *appctx.Context) appctx.ApiError {
-	return ctx.ResponseBadRequest("deneme")
+	return ctx.ResponseBadRequest("xd")
+
 }
 
 func Logout(ctx *appctx.Context) appctx.ApiError {
-	return ctx.ResponseSuccess(nil)
+	return ctx.ResponseSuccess("çıkış yaptınız")
 }
